@@ -1,0 +1,40 @@
+{
+    "passfail"      : false,
+    "maxerr"        : 50,
+
+    "node"       : true,
+
+    "jquery"        : false,
+    "prototypejs"   : false,
+    "mootools"      : false,
+    "dojo"          : false,
+
+    "laxbreak"      : true,
+    "laxcomma"      : true,
+
+    "debug"         : true,
+    "devel"         : true,
+
+    "esnext"        : true,
+    "strict"        : false,
+    "globalstrict"  : false,
+
+    "sub"           : true,
+    "asi"           : false,
+    "boss"          : false,
+    "eqeqeq"        : true,
+    "evil"          : false,
+    "expr"          : false,
+    "forin"         : false,
+    "latedef"       : true,
+    "loopfunc"      : true,
+    "noarg"         : true,
+    "scripturl"     : false,
+    "shadow"        : "inner",
+    "supernew"      : true,
+    "unused"        : true,
+    "undef"         : true,
+    "freeze"        : true,
+    "maxdepth"      : 3,
+    "maxparams"     : 4
+}
