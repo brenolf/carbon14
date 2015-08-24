@@ -1,4 +1,4 @@
-# Carbon14
+# Carbon14 [![Build Status](https://travis-ci.org/brenolf/carbon14.svg)](https://travis-ci.org/brenolf/carbon14) [![npm version](https://badge.fury.io/js/carbon14.svg)](http://badge.fury.io/js/carbon14)
 > Checks how long it takes to beat a given game
 
 Carbon14 is a utility to check how long is it needed to beat a game. It uses [HowLongToBeat](http://howlongtobeat.com/) data.
@@ -7,7 +7,7 @@ Carbon14 is a utility to check how long is it needed to beat a game. It uses [Ho
 
 ## Install
 
-`$ npm install --save-dev carbon14`
+`$ npm install --save carbon14`
 
 ## Usage
 
