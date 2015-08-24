@@ -1,0 +1,27 @@
+[
+  {
+    "name": "God of War",
+    "main": 9,
+    "extra": 9.25,
+    "completionist": 9.5,
+    "combined": 9.75
+  },
+  {
+    "name": "God of War III",
+    "main": 9.5,
+    "extra": 10.5,
+    "completionist": 18,
+    "combined": 10.5
+  },
+  {
+    "name": "God of War: Ascension",
+    "main": 8.5,
+    "extra": 9,
+    "completionist": 15,
+    "combined": 9
+  },
+  {
+    "name": "God of War: Origins Collection",
+    "solo": 11.5
+  }
+]

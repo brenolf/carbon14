@@ -1,0 +1,43 @@
+{
+  "name": "carbon14",
+  "version": "0.0.1",
+  "description": "A utility to check how long it takes to beat a given game",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --reporter dot 'test/**/*.test.js'",
+    "style": "jshint --reporter=node_modules/jshint-stylish lib/**/*.js; jscs lib/**/*.js; exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brenolf/carbon14.git"
+  },
+  "keywords": [
+    "games",
+    "time",
+    "howlongtobeat"
+  ],
+  "author": "Breno Lima de Freitas <brenolimadefreitas@gmail.com> (https://breno.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenolf/carbon14/issues"
+  },
+  "homepage": "https://github.com/brenolf/carbon14",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "jscs": "^2.0.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5",
+    "sinon": "^1.16.1"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "request-promise": "^0.4.3",
+    "xml-parser": "^1.2.1",
+    "yargs": "^3.21.0"
+  },
+  "bin": {
+    "carbon14": "./lib/bin.js"
+  }
+}

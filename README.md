@@ -1,22 +1,49 @@
 # Carbon14
 > Checks how long it takes to beat a given game
 
-Beat it is a utility to check how long is it needed to beat a game. It uses [HowLongToBeat](http://howlongtobeat.com/) data.
+Carbon14 is a utility to check how long is it needed to beat a game. It uses [HowLongToBeat](http://howlongtobeat.com/) data.
+
+![Carbon14](https://raw.githubusercontent.com/brenolf/carbon14/master/preview.gif "Carbon14")
 
 ## Install
+
 `$ npm install --save-dev carbon14`
 
 ## Usage
+
 ```js
 var carbon14 = require('carbon14');
 
-console.log(carbon14('apotheon'));
+carbon14('apotheon')
+  .then(console.log);
 ```
 
 ## CLI
+
 If installed globally, you can use beatit as a command line utility as follows:
 
 `$ carbon14 apotheon`
 
+## Format
+
+Carbon14 returns a promise that, when fulfilled, returns json containing the available data in a very minimalistic flavour. Note that it omits the unavailable playing times. An example of the object returned is shown below.
+
+```json
+[
+  {
+    "name": "God of War",
+    "main": 9,
+    "extra": 9.25,
+    "completionist": 9.5,
+    "combined": 9.75
+  },
+  {
+    "name": "God of War: Origins Collection",
+    "solo": 11.5
+  }
+]
+```
+
 ## License
+
 MIT
