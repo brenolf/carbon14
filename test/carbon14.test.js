@@ -12,6 +12,8 @@ chai.use(chaiAsPromised);
 describe('carbon14', function () {
   var html = fs.readFileSync(__dirname + '/fixtures/godofwar.html', 'utf-8')
 
+  var json = require(__dirname + '/fixtures/godofwar.json')
+
   var fakeResponse = new Promise(function (fulfill) {
     fulfill(html);
   });
@@ -28,13 +30,13 @@ describe('carbon14', function () {
 
   context('when no game name is given', function () {
     it('throws an error', function () {
-      expect(function () { carbon14() }).to.throw
+      expect(function () { carbon14() }).to.throw()
     })
   })
 
   context('when a game name is given', function () {
     it('return a promise with the formated json', function () {
-      return expect(carbon14('god of war')).to.eventually.have.length(4)
+      return expect(carbon14('god of war')).to.eventually.eql(json)
     })
   })
 })
