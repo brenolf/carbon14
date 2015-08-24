@@ -1,6 +1,6 @@
 {
   "name": "carbon14",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility to check how long it takes to beat a given game",
   "main": "./index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.0.1",
     "mocha": "^2.2.5",
+    "polyfill-promise": "^4.0.1",
     "sinon": "^1.16.1"
   },
   "dependencies": {

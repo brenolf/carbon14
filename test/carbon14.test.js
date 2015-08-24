@@ -1,3 +1,4 @@
+var Promise = require('polyfill-promise')
 var carbon14 = require('../lib/carbon14')
 var chaiAsPromised = require('chai-as-promised')
 var sinon = require('sinon')
