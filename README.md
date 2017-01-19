@@ -1,3 +1,5 @@
+## As of Jan. 19, 2017, this package is no longer working due to change on How Long To Beat HTML source code. 
+
 # Carbon14 [![Build Status](https://travis-ci.org/brenolf/carbon14.svg)](https://travis-ci.org/brenolf/carbon14) [![npm version](https://badge.fury.io/js/carbon14.svg)](http://badge.fury.io/js/carbon14)
 > Checks how long it takes to beat a given game
 
